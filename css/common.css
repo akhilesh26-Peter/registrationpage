@@ -1,0 +1,150 @@
+/* =====================================================
+                GOOGLE FONT
+===================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+/* =====================================================
+                ROOT COLORS
+===================================================== */
+
+:root{
+
+    --primary:#0D47A1;
+    --secondary:#1565C0;
+    --accent:#1E88E5;
+    --light:#42A5F5;
+
+    --white:#ffffff;
+    --black:#000000;
+
+    --text:#1f2937;
+    --grey:#6b7280;
+
+    --border:#d9d9d9;
+
+    --shadow:0 15px 40px rgba(0,0,0,.18);
+
+    --radius:22px;
+
+}
+
+
+/* =====================================================
+                RESET
+===================================================== */
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    overflow-x:hidden;
+
+}
+
+
+/* =====================================================
+                IMAGES
+===================================================== */
+
+img{
+
+    max-width:100%;
+    display:block;
+
+}
+
+
+/* =====================================================
+                LINKS
+===================================================== */
+
+a{
+
+    text-decoration:none;
+
+}
+
+
+/* =====================================================
+                BUTTONS
+===================================================== */
+
+button{
+
+    cursor:pointer;
+    border:none;
+
+}
+
+
+/* =====================================================
+                INPUTS
+===================================================== */
+
+input,
+textarea{
+
+    outline:none;
+
+}
+
+
+/* =====================================================
+                SCROLLBAR
+===================================================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#ececec;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:var(--accent);
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:var(--primary);
+
+}
+
+
+/* =====================================================
+                SELECTION
+===================================================== */
+
+::selection{
+
+    background:var(--accent);
+    color:var(--white);
+
+}
